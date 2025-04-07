@@ -16,7 +16,7 @@ Aplicación para transcribir videos a texto usando Whisper (para transcripción)
 ## 📦 Dependencias del proyecto
 
 ### Backend (Python/Flask)
-```python
+
 import os
 from typing import TypedDict, Annotated
 from langgraph.graph import StateGraph, END
@@ -33,13 +33,13 @@ import time
 Frontend (Vue.js)
 Vue 3
 
-Vue Router
+## Vue Router
 
 Axios
 
 Element Plus (opcional)
 
-🛠️ Instalación
+## 🛠️ Instalación
 Requisitos previos
 Python 3.9+
 
@@ -47,20 +47,20 @@ Node.js 16+
 
 FFmpeg (para procesamiento de video)
 
-Git
+## Git
 
 1. Clonar el repositorio
 bash
-Copy
+
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 2. Configurar backend
 Instalar dependencias de Python
 bash
-Copy
+
 pip install -r requirements.txt
 Archivo requirements.txt
-Copy
+
 flask==3.0.2
 flask-cors==4.0.0
 python-dotenv==1.0.0
@@ -72,22 +72,23 @@ werkzeug==3.0.1
 Variables de entorno (.env)
 Crea un archivo .env en la raíz del proyecto con:
 
-ini
-Copy
+init
+##  .env config
+
 GROQ_API_KEY=tu_api_key_de_groq
 UPLOAD_FOLDER=./uploads
 ALLOWED_EXTENSIONS=mp4,mov,avi,mkv
 3. Configurar frontend
 bash
-Copy
+
 cd frontend
 npm install
 4. Ejecutar el proyecto
 Iniciar backend (desde la raíz del proyecto)
 bash
-Copy
+
 python app.py
 Iniciar frontend (desde /frontend)
 bash
-Copy
+
 npm run dev
