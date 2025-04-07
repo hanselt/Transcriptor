@@ -41,20 +41,19 @@ Element Plus (opcional)
 
 ## 🛠️ Instalación
 Requisitos previos
+
 Python 3.9+
-
 Node.js 16+
-
 FFmpeg (para procesamiento de video)
 
-## Git
+### Git
 
-1. Clonar el repositorio
+## 1. Clonar el repositorio
 bash
 
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
-2. Configurar backend
+## 2. Configurar backend
 Instalar dependencias de Python
 bash
 
@@ -73,22 +72,26 @@ Variables de entorno (.env)
 Crea un archivo .env en la raíz del proyecto con:
 
 init
-##  .env config
+
+###  .env config
 
 GROQ_API_KEY=tu_api_key_de_groq
 UPLOAD_FOLDER=./uploads
 ALLOWED_EXTENSIONS=mp4,mov,avi,mkv
-3. Configurar frontend
-bash
+## 3. Configurar frontend
 
-cd frontend
+
+/cd frontend
 npm install
-4. Ejecutar el proyecto
+
+## 4. Ejecutar el proyecto
 Iniciar backend (desde la raíz del proyecto)
 bash
 
 python app.py
+
 Iniciar frontend (desde /frontend)
+
 bash
 
 npm run dev
