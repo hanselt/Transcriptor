@@ -1,0 +1,5 @@
+backend/.env
+backend/__pycache__/test_audio.cpython-39-pytest-8.3.5.pyc
+backend/__pycache__/test_integration.cpython-39-pytest-8.3.5.pyc
+backend/Key/speedy-district-455722-g0-45a1bef211fe.json
+backend/model/tinyllama-1.1b-chat-v1.0.Q2_K.gguf
